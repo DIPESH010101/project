@@ -7,19 +7,19 @@ export default function Nav() {
       <div className="flex justify-between w-4/5 mx-auto ">
         <div className="text-4xl text-gray-100">logo here</div>
         <ul className="flex gap-4 text-2xl text-gray-100">
-          <Link href={"#"}>
+          <Link href={"/"}>
             <li className="hover:scale-110 transition-all duration-200 ease-in-out">
               Home
             </li>
           </Link>
-          <Link href={"/products"}>
+          <Link href={"/books"}>
             <li className="hover:scale-110 transition-all duration-200 ease-in-out">
-              Products
+              Books
             </li>
           </Link>
-          <Link href={"#"}>
+          <Link href={"/members"}>
             <li className="hover:scale-110 transition-all duration-200 ease-in-out">
-              Reports
+              Members
             </li>
           </Link>
         </ul>
